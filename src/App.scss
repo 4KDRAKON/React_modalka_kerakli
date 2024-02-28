@@ -1,0 +1,101 @@
+body {
+    background-color: blue;
+    color: red;
+}
+
+li {
+    list-style-type: none;
+    border: 2px solid red;
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 400px;
+    font-size: 18px;
+    background-color: black;
+}
+
+li:hover {
+    list-style-type: disc;
+    text-decoration: underline;
+}
+
+.input--text {
+    background-color: transparent;
+    text-align: center;
+    width: 350px;
+    padding: 10px;
+    border: 3px solid #fff;
+    color: red;
+    outline: none;
+    margin-left: 38px;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: aqua;
+    color: red;
+    border-color: red;
+    outline: none;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+}
+
+.checkbox:checked {
+    color: yellow;
+}
+
+.salom{
+    display: none;
+    
+}
+
+.nima{
+    display: block;
+    color: red;
+    text-align: center;
+    align-items: start;
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    border-radius: 8px;
+}
+.modal{
+position: fixed;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ display: none;
+ align-items: center;
+ justify-content: center;
+ background-color: rgba(0, 0, 0, 0.5);
+
+  &--open {
+    display: flex;
+  }
+
+  &__inner {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  padding: 30px;
+  background-color: #fff;
+  }
+}
